@@ -40,7 +40,7 @@ Lab 5 – Enable GitHub OAuth Login	Configure OAuth so users can log in and se
 ```
 
 ```
-DAY1 :
+DAY2 :
 
 •	Golden Paths: What, Why, and How to Design for Developer Experience (DevEx)
 •	Service Scaffolding in IDPs (Backstage Software Templates)
