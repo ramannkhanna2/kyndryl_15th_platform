@@ -59,6 +59,7 @@ Package and run containerized service.
 ```
 ```
 DAY3:
+
 🎯 Goal: Provision secure infrastructure with guardrails and integrate resources & pipelines into Backstage for unified visibility.
 🧠 Key Concepts
 •	Infrastructure as Code (IaC): Terraform Modules
