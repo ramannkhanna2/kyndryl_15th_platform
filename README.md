@@ -66,6 +66,18 @@ DAY3:
 •	CI/CD as Self-Service Offerings in an IDP
 o	GitHub Actions, Jenkins, GitLab CI/CD
 
+🧪 Hands-On Labs
+✅ Lab 7: Terraform Secured Infra Module (VPC, S3 with encryption)
+Provision secured infra.
+🔗 Backstage Integration:
+•	Register provisioned infra as Resource entities in Catalog.
+
+Lab 8.1: Secure Secrets Management in Pipelines & Backstage Catalog (NEW)
+•	Store secrets (e.g., API keys) in GitHub Actions Encrypted Secrets.
+•	Update pipeline to consume secrets securely.
+•	🔗 Backstage Integration: Annotate Catalog to link pipeline secrets metadata and provide developers visibility.
+
+
 ```
 
 
