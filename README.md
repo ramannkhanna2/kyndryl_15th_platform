@@ -14,6 +14,7 @@ o	Observability (Prometheus + Grafana)
 ```
 
 
+
 ```
 DAY1 :
 
@@ -38,7 +39,6 @@ Lab 3 – Add GitHub Pull Requests Plugin	Integrate the PR plugin and view rep
 Lab 4 – Register a Sample Service	Add a service with catalog-info.yaml into Backstage catalog.
 Lab 5 – Enable GitHub OAuth Login	Configure OAuth so users can log in and see personalized PR data.
 ```
-
 ```
 DAY2 :
 
@@ -57,7 +57,6 @@ Register scaffolded service as a Component in Backstage Catalog for discoverabil
 Package and run containerized service.
 
 ```
-
 ```
 DAY3:
 🎯 Goal: Provision secure infrastructure with guardrails and integrate resources & pipelines into Backstage for unified visibility.
@@ -76,9 +75,16 @@ Lab 8.1: Secure Secrets Management in Pipelines & Backstage Catalog (NEW)
 •	Store secrets (e.g., API keys) in GitHub Actions Encrypted Secrets.
 •	Update pipeline to consume secrets securely.
 •	🔗 Backstage Integration: Annotate Catalog to link pipeline secrets metadata and provide developers visibility.
+```
+
 
 
 ```
-
+📊 Why This Structure Wows
+✅ Strong focus on IDP concepts and hands-on workflows
+✅ Backstage integrated side-by-side across all labs
+✅ Highlights Developer Experience (DevEx) and platform as a product mindset
+✅ Trainees leave with a working IDP prototype and a clear understanding of its architecture and operation
+```
 
 
