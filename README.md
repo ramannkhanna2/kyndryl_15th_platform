@@ -53,6 +53,19 @@ DAY2 :
 Scaffold a microservice with standard template.
 🔗 Backstage Integration:
 Register scaffolded service as a Component in Backstage Catalog for discoverability.
+✅ Lab 5: Containerize Service & Run in Docker
+Package and run containerized service.
+
+```
+
+```
+DAY3:
+🎯 Goal: Provision secure infrastructure with guardrails and integrate resources & pipelines into Backstage for unified visibility.
+🧠 Key Concepts
+•	Infrastructure as Code (IaC): Terraform Modules
+•	CI/CD as Self-Service Offerings in an IDP
+o	GitHub Actions, Jenkins, GitLab CI/CD
+
 ```
 
 
