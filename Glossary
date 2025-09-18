@@ -1,0 +1,76 @@
+📖 Platform Engineering Glossary (Modern Terms)
+
+1. Internal Developer Platform (IDP)
+A self-service platform built by the platform engineering team that provides developers with tools, workflows, and infrastructure on demand. Backstage is often the “front door” for the IDP.
+
+2. Backstage
+An open-source developer portal created by Spotify, now a CNCF project. It organizes software catalogs, templates, plugins, docs, and integrations in a single interface.
+
+3. Service Catalog
+A centralized inventory of all services, APIs, resources, and systems in your organization. Backstage uses it as the “single source of truth” for developers.
+
+4. Golden Path
+Standardized, pre-approved software templates (e.g., a Flask microservice, Terraform infra module) that ensure best practices, security, and compliance are baked in from day one.
+
+5. TechDocs
+Backstage’s built-in documentation system based on MkDocs. Enables developers to write docs in Markdown and render them directly inside the portal.
+
+6. Plugins
+Extensible modules in Backstage that integrate external tools like GitHub, Kubernetes, Grafana, CI/CD systems, etc. Examples: GitHub PR Plugin, GitHub Actions Plugin, Grafana Plugin.
+
+7. GitHub PR Plugin
+A Backstage extension that shows pull requests from GitHub repositories directly inside service pages — reducing context switching between tools.
+
+8. GitHub Actions Integration
+Lets you see pipeline histories and trigger workflows (like deployments) from Backstage. A core step in enabling “click-to-deploy.”
+
+9. OAuth (GitHub OAuth)
+Authentication mechanism that allows developers to log into Backstage with their GitHub identity. Enables mapping of users and groups to service ownership.
+
+10. Catalog Entity
+Any item registered in Backstage’s catalog, defined by a catalog-info.yaml file. Entities can be Components (services), APIs, Resources, Systems, or Domains.
+
+11. Scaffolder
+The Backstage module that generates new projects from templates. It powers the Golden Path concept by automating repo creation, CI/CD, and infra setup.
+
+12. Terraform Module
+Reusable infrastructure-as-code package. In Backstage, Terraform modules can be scaffolded and provisioned via GitHub Actions, enabling “infra-as-self-service.”
+
+13. GitHub Secrets
+Secure storage for credentials (like AWS keys, DockerHub tokens) used in CI/CD pipelines. Essential for secure platform automation.
+
+14. SAST (Static Application Security Testing)
+Automated code security analysis performed without executing the program (e.g., Bandit for Python). Ensures vulnerabilities are caught early.
+
+15. DAST (Dynamic Application Security Testing)
+Security testing that runs against a live, running application (e.g., OWASP ZAP). Detects vulnerabilities missed by static scanning.
+
+16. SBOM (Software Bill of Materials)
+A machine-readable list of all dependencies and components in a project. Helps with compliance, audits, and vulnerability tracking.
+
+17. Prometheus
+Open-source metrics collection system. Scrapes runtime metrics (like request counts, latencies) from applications via /metrics endpoints.
+
+18. Grafana
+Visualization tool for monitoring data (from Prometheus, Loki, etc.). In Backstage, Grafana dashboards can be embedded directly into service pages.
+
+19. Observability
+A holistic view of systems through logs, metrics, and traces. In Platform Engineering, observability is automated via Golden Paths (every service exposes metrics by default).
+
+20. Kubernetes Integration
+Backstage plugin that connects to Kubernetes clusters, allowing developers to view deployments, pods, and workloads without leaving the portal.
+
+21. Click-to-Deploy
+A feature where developers can trigger deployments (via GitHub Actions, ArgoCD, or other CI/CD tools) directly from Backstage with a single click.
+
+22. Developer Experience (DevEx / DX)
+The overall usability and efficiency of the developer environment. Platform engineering’s core mission is to improve DevEx by eliminating friction.
+
+23. Platform as a Product
+The mindset that the internal platform is not just tooling, but a product with end-users (developers). Requires roadmaps, feedback loops, and continuous improvement.
+
+24. Self-Service Infrastructure
+Developers can provision infrastructure (databases, clusters, buckets, etc.) without waiting on ops teams, usually through Backstage templates + Terraform + GitHub Actions.
+
+25. Catalog Annotations
+Metadata added in catalog-info.yaml that links services to external systems (e.g., GitHub repo slug, Grafana dashboard URL, TechDocs ref). These make integrations work.
