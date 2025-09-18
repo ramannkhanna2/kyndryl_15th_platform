@@ -16,8 +16,7 @@ o	Observability (Prometheus + Grafana)
 
 
 ```
-DAY1 :
-
+📅 Day 1 – Foundations of Platform Engineering & Developer Portals
 🎯 Goal: Establish a shared understanding of Platform Engineering, developer pain points, and set the foundation for building an Internal Developer Platform (IDP) with Backstage.
 ________________________________________
 🧠 Key Concepts
@@ -40,8 +39,9 @@ Lab 4 – Register a Sample Service	Add a service with catalog-info.yaml into 
 Lab 5 – Enable GitHub OAuth Login	Configure OAuth so users can log in and see personalized PR data.
 ```
 ```
-DAY2 :
-
+________________________________________
+📅 Day 2 – Golden Paths & Developer Self-Service Workflows
+🧠 Key Concepts
 •	Golden Paths: What, Why, and How to Design for Developer Experience (DevEx)
 •	Service Scaffolding in IDPs (Backstage Software Templates)
 •	AI-Assisted Template Scaffolding and Recommendations 
@@ -55,30 +55,54 @@ Scaffold a microservice with standard template.
 Register scaffolded service as a Component in Backstage Catalog for discoverability.
 ✅ Lab 5: Containerize Service & Run in Docker
 Package and run containerized service.
+```
 
 ```
-```
-DAY3:
-
+________________________________________
+📅 Day 3 – Infrastructure, Security & Catalog Expansion
 🎯 Goal: Provision secure infrastructure with guardrails and integrate resources & pipelines into Backstage for unified visibility.
 🧠 Key Concepts
 •	Infrastructure as Code (IaC): Terraform Modules
 •	CI/CD as Self-Service Offerings in an IDP
 o	GitHub Actions, Jenkins, GitLab CI/CD
-
+•	Auto-triggered tests, rollbacks, and security scanning
+•	Secure Pipelines: SBOM, SAST/DAST, CVE scanning
+•	Expanding the IDP Catalog with infrastructure and pipelines
 🧪 Hands-On Labs
 ✅ Lab 7: Terraform Secured Infra Module (VPC, S3 with encryption)
 Provision secured infra.
 🔗 Backstage Integration:
 •	Register provisioned infra as Resource entities in Catalog.
-
+✅ Lab 8: Build Reusable CI/CD Pipeline with GitHub Actions (SBOM + SAST)
+Set up secure CI/CD pipelines.
+🔗 Backstage Integration:
+Expose pipeline status in Backstage using GitHub Actions plugin.
 Lab 8.1: Secure Secrets Management in Pipelines & Backstage Catalog (NEW)
 •	Store secrets (e.g., API keys) in GitHub Actions Encrypted Secrets.
 •	Update pipeline to consume secrets securely.
 •	🔗 Backstage Integration: Annotate Catalog to link pipeline secrets metadata and provide developers visibility.
+
+✅ Lab 9: Add TechDocs for Service Documentation
+Publish API and service documentation into Backstage TechDocs for easy consumption.
 ```
 
-
+```
+________________________________________
+📅 Day 4 – Observability, Plugins & Team Enablement
+🎯 Goal: Enable observability, monitoring, and enhance the IDP with plugins for developer self-service.
+🧠 Key Concepts
+•	Observability Stack: Prometheus, Grafana , EFK/ELK, OpenTelemetry
+•	Self-Service Developer Portals in Action:
+o	Service Catalog
+o	Pipeline Triggers
+o	Secrets Management
+🧪 Hands-On Labs
+✅ Lab 10: Instrument Flask App with Prometheus Metrics & Build Grafana Dashboards
+🔗 Backstage Integration:
+Configure Backstage Grafana plugin to view dashboards directly from Catalog.
+✅ Lab 11: Add More Backstage Entities (Group, User, Resource, System, Domain)
+Organize Backstage Catalog for teams and systems alignment.
+```
 
 ```
 📊 Why This Structure Wows
