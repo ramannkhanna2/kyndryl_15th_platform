@@ -113,8 +113,8 @@ ________________________________________
 📅 Day 5 – End-to-End IDP Deployment & Capstone
 🎯 Goal: Apply all concepts in building and deploying a full-stack Internal Developer Platform prototype.
 🧠 Key Concepts
-•	Agentic AI Use Cases in Platform Engineering
-•	Secrets Management using Hashicorp vault
+•	 AI Use Cases in Platform Engineering
+•	Secrets Management 
 •	GitOps-based Platform Deployment on Kubernetes (ArgoCD)
 •	🌟 IDP as a Product: Governance, Standards, and Developer Feedback Loops (Wrap-up discussion on how to operate and evolve the IDP post-deployment.)
 •	Policy Enforcement: OPA Gatekeeper in Kubernetes environment.
@@ -122,7 +122,7 @@ ________________________________________
 🧪 Capstone Project
 ✅ Build & Deploy a Full IDP Prototype:
 •	Scaffold service with Cookiecutter
-•	Provision infra with Terraform + Helm
+•	Provision infra with Terraform 
 •	Secure CI/CD pipelines (SBOM + Security scans)
 •	Enable Observability with Prometheus + Grafana dashboards
 •	Access all workflows via Backstage Developer Portal
