@@ -37,7 +37,9 @@ Lab 2 – Explore Backstage UI	Explore Service Catalog, TechDocs, and plugin a
 Lab 3 – Add GitHub Pull Requests Plugin	Integrate the PR plugin and view repo PR metrics.
 Lab 4 – Register a Sample Service	Add a service with catalog-info.yaml into Backstage catalog.
 Lab 5 – Enable GitHub OAuth Login	Configure OAuth so users can log in and see personalized PR data.
+
 ```
+
 ```
 ________________________________________
 📅 Day 2 – Golden Paths & Developer Self-Service Workflows
@@ -102,6 +104,29 @@ o	Secrets Management
 Configure Backstage Grafana plugin to view dashboards directly from Catalog.
 ✅ Lab 11: Add More Backstage Entities (Group, User, Resource, System, Domain)
 Organize Backstage Catalog for teams and systems alignment.
+✅ Lab 12: Add Backstage Plugins for ArgoCD and CI/CD pipeline triggers
+Enable Backstage plugins for GitOps deployments and developer-triggered pipelines.
+```
+
+```
+________________________________________
+📅 Day 5 – End-to-End IDP Deployment & Capstone
+🎯 Goal: Apply all concepts in building and deploying a full-stack Internal Developer Platform prototype.
+🧠 Key Concepts
+•	Agentic AI Use Cases in Platform Engineering
+•	Secrets Management using Hashicorp vault
+•	GitOps-based Platform Deployment on Kubernetes (ArgoCD)
+•	🌟 IDP as a Product: Governance, Standards, and Developer Feedback Loops (Wrap-up discussion on how to operate and evolve the IDP post-deployment.)
+•	Policy Enforcement: OPA Gatekeeper in Kubernetes environment.
+•	Approach to convince clients/stakeholders to use IDP Platform and how it will benefit.
+🧪 Capstone Project
+✅ Build & Deploy a Full IDP Prototype:
+•	Scaffold service with Cookiecutter
+•	Provision infra with Terraform + Helm
+•	Secure CI/CD pipelines (SBOM + Security scans)
+•	Enable Observability with Prometheus + Grafana dashboards
+•	Access all workflows via Backstage Developer Portal
+
 ```
 
 ```
